@@ -2,10 +2,11 @@ var app = new Vue({
   el: "#app",
   data: {
     ruru: "るる",
+    kekka : ""
   },
   methods: {
     addRuru: function name(value) {
-      this.ruru = this.ruru + this.ruru;
+      this.kekka = this.kekka + this.kekka + this.ruru;
     },
   },
 });

@@ -19,11 +19,12 @@
 
 <body>
   <div id="app">
-    <button v-on:click="addRuru(`るる`)">るるを追加する</button>
+    <button v-on:click="addRuru(`るる`)"><span>{{ruru}}</span>を追加する</button>
+    <input type="text" v-model="ruru">
     <p>
-      {{ ruru }}
+      {{ kekka }}
     </p>
-    <!-- {{$data}} -->
+    {{$data}}
   </div>
   <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
